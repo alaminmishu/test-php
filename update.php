@@ -1,5 +1,4 @@
 <?php
-
 include_once './config/db.php';
 
 $sql = "UPDATE persons SET District = 'Tangail' WHERE CustomerName = 'abc'";
@@ -11,5 +10,4 @@ if (mysqli_query($conn, $sql)) {
 }
 
 // mysqli_close($conn);
-
 // $conn->close();
